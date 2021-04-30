@@ -1,0 +1,15 @@
+{
+    "argv": [
+     "singularity",
+     "exec",
+     "-B",
+     "/staging,/lustre1,/data,/vsc-hard-mounts",
+     "/staging/leuven/res_00001/software/pySCENIC/0.11.0/aertslab-pyscenic-0.11.0.sif",
+     "ipython",
+     "kernel",
+     "-f",
+     "{connection_file}"
+    ],
+    "display_name": "pySCENIC 0.11.0",
+    "language": "python"
+   }

@@ -1,0 +1,8 @@
+{
+ "argv": [
+    "/data/leuven/software/biomed/jupyterhub/miniconda/envs/jupyterhub/share/jupyter/kernels/seurat310/start_kernel.sh",
+    "{connection_file}"
+ ],
+ "display_name": "Seurat 3.1.0",
+ "language": "R"
+}

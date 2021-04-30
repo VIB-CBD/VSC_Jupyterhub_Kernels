@@ -1,0 +1,15 @@
+{
+    "argv": [
+     "singularity",
+     "exec",
+     "-B",
+     "/staging,/lustre1,/data,/vsc-hard-mounts",
+     "/staging/leuven/res_00001/software/Scanpy/1.4.4/scanpy-1.4.4-jpytr.sif",
+     "ipython",
+     "kernel",
+     "-f",
+     "{connection_file}"
+    ],
+    "display_name": "Scanpy 1.4.4",
+    "language": "python"
+   }
